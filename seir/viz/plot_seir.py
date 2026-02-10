@@ -1,7 +1,10 @@
+from typing import Sequence
+import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
 
 
-def plot_results(infected):
+def plot_results(infected: Sequence[float] | np.ndarray) ->Figure:
     """Plots the time series of infected cases."""
     
     fig, ax = plt.subplots(1, 1, figsize=(10, 6))
