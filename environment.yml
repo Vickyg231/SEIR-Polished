@@ -1,0 +1,8 @@
+name: seir
+dependencies:
+- Python = 3.10
+- numpy
+- matplotlib
+- pip
+- pip:
+  - python-dotenv
